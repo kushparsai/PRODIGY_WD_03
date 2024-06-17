@@ -2,8 +2,6 @@ const board = document.getElementById('board');
 const cells = document.querySelectorAll('.cell');
 const messageElement = document.getElementById('message');
 const resetButton = document.getElementById('resetButton');
-const clickSound = new Audio('start.mp3');
-const winSound = new Audio('file:///C:/Users/Kush%20parsai/Downloads/click.mp3.mp3');
 
 let currentPlayer = 'X';
 let gameState = Array(9).fill(null);
